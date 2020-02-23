@@ -22,9 +22,9 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Yurii Serhiichuk',
-    author_email='savik.ne[at]gmail.com',
-    url='https://github.com/xSAVIKx/gcp-server-environments/tree/master/ru_proverbs',
-    keywords=['python', 'textgenrnn', 'ML', 'AI'],
+    author_email='savik.ne@gmail.com',
+    url='https://github.com/xSAVIKx/ru-proverbs',
+    keywords=['python', 'textgenrnn', 'ML', 'AI', 'tensorflow'],
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
