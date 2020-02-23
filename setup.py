@@ -32,6 +32,7 @@ setup(
         'textgenrnn>=2.0.0',
         'pip>=20.0.2'
     ],
+    scripts=['bin/ru-proverbs'],
     classifiers=CLASSIFIERS,
     python_requires='>=3.7'
 )
