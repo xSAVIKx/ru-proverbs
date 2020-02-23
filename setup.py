@@ -10,8 +10,6 @@ CLASSIFIERS = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.5",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8"
 ]
@@ -30,9 +28,10 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'tensorflow>=1.14.0',
-        'textgenrnn>=1.5.0'
+        'tensorflow>=2.1.0',
+        'textgenrnn>=2.0.0',
+        'pip>=20.0.2'
     ],
     classifiers=CLASSIFIERS,
-    python_requires='>=3.5'
+    python_requires='>=3.7'
 )
