@@ -1,5 +1,6 @@
 RU Proverbs AI module
 -------
+[![PyPI version](https://badge.fury.io/py/ru-proverbs.svg)](https://badge.fury.io/py/ru-proverbs)
 
 This module provides API that allows to generate Russian Proverbs with the power of AI.
 
