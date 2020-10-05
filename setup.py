@@ -28,9 +28,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'tensorflow>=2.1.0',
+        'tensorflow>=2.3.1',
         'textgenrnn>=2.0.0',
-        'pip>=20.0.2'
+        'pip>=20.2.3'
     ],
     scripts=['bin/ru-proverbs'],
     classifiers=CLASSIFIERS,
