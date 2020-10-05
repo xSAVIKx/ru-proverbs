@@ -32,7 +32,7 @@ setup(
         'textgenrnn>=2.0.0',
         'pip>=20.2.3'
     ],
-    scripts=['bin/ru-proverbs'],
+    scripts=['bin/ru-proverbs', 'bin/ru-proverbs.py'],
     classifiers=CLASSIFIERS,
     python_requires='>=3.7'
 )
