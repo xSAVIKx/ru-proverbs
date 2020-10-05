@@ -8,7 +8,7 @@ This module provides API that allows to generate Russian Proverbs with the power
  
 For Windows builds:
 
-In the current version we use Python 3.7.6, Tensorflow 2.1 and CUDA 10.1.
+In the current version we use Python 3.7.6, Tensorflow 2.3.1 and CUDA 10.1.
 
 1. Python 3.7.x. x64 (tested with [Python 3.7.6x64][python]).
 
