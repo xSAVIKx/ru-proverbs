@@ -40,3 +40,5 @@ jobs:
         run: poetry run black . --check --diff --color
       - name: Run MyPy checks
         run: poetry run mypy . --show-error-context --pretty
+      - name: Prepare dist
+        run: poetry build
