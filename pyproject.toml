@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ru_proverbs"
-version = "1.1.0"
+version = "1.1.1"
 description = "Russian Proverbs AI-powered proverbs generator."
 authors = ["Yurii Serhiichuk <savik.ne@gmail.com>"]
 license = "Apache-2.0"
