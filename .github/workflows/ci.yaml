@@ -44,3 +44,14 @@ jobs:
         run: poetry export -f requirements.txt > requirements.txt
       - name: Prepare dist
         run: poetry build
+      - name: Dry publish
+        run: poetry publish --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" --dry-run
+        env:
+          PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+      - name: Publish
+        if: contains('refs/heads/master', github.ref) && github.event_name == 'push'
+        run: poetry publish --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" --dry-run
+        env:
+          PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
