@@ -12,6 +12,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 #
+import sys
 
 from ru_proverbs.generator import generate_proverb
 
@@ -21,4 +22,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
