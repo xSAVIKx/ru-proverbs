@@ -26,8 +26,8 @@ include = [
 ]
 
 [tool.poetry.scripts]
-ru-proverbs = "ru_proverbs:__main__:main"
-ru_proverbs = "ru_proverbs:__main__:main"
+ru-proverbs = "ru_proverbs.__main__:main"
+ru_proverbs = "ru_proverbs.__main__:main"
 
 [tool.poetry.urls]
 "But Tracker" = "https://github.com/xSAVIKx/ru-proverbs/issues"
