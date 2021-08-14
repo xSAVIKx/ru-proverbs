@@ -39,5 +39,4 @@ jobs:
       - name: Run Black
         run: poetry run black . --check --diff --color
       - name: Run MyPy checks
-        continue-on-error: true
         run: poetry run mypy . --show-error-context --pretty
