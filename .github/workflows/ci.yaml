@@ -40,5 +40,7 @@ jobs:
         run: poetry run black . --check --diff --color
       - name: Run MyPy checks
         run: poetry run mypy . --show-error-context --pretty
+      - name: Export PiP requirements
+        run: poetry export -f requirements.txt > requirements.txt
       - name: Prepare dist
         run: poetry build

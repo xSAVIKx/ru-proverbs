@@ -20,6 +20,7 @@ classifiers = [
 ]
 include = [
     "LICENSE",
+    "requirements.txt",
     "ru_proverbs/*.txt",
     "ru_proverbs/*.json",
     "ru_proverbs/*.hdf5"
