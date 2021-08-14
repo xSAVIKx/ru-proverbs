@@ -29,7 +29,7 @@ def generate_proverb(
     :param number_of_proverbs: number of proverbs to generate
     :param temperature: the RNN temperature
     :param max_gen_length: max length of the proverb to be generated
-    :return: generated provers
+    :return: generated proverbs
     :rtype: list of str
     """
     textgen: textgenrnn = textgenrnn(
