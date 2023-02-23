@@ -8,9 +8,9 @@ This module provides API that allows generating Russian Proverbs with the power 
 
 For Windows builds:
 
-In the current version we use Python 3.7.8, Tensorflow 2.3.1 and CUDA 10.1.
+In the current version we use Python 3.10.4, Tensorflow 2.3.1 and CUDA 10.1.
 
-1. Python 3.7.x x64 (tested with [Python 3.7.6x64][python]).
+1. Python 3.10.x x64 (tested with [Python 3.10.4x64][python]).
 
 2. [Poetry][poetry].
 
@@ -37,7 +37,7 @@ In the current version we use Python 3.7.8, Tensorflow 2.3.1 and CUDA 10.1.
 
    Add `CUDA_PATHS` to `PATH`: `SET PATH=%CUDA_PATHS%;%PATH%`.
 
-[python]: https://www.python.org/downloads/release/python-376/
+[python]: https://www.python.org/downloads/release/python-3104/
 
 [poetry]: https://python-poetry.org/
 

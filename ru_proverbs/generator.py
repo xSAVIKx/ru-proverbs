@@ -1,4 +1,4 @@
-#  Copyright 2019 - 2021, Yurii Serhiichuk
+#  Copyright 2019 - 2023, Yurii Serhiichuk
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@
 #
 
 from os import path
-from typing import List
 
 from textgenrnn import textgenrnn
 
@@ -23,7 +22,7 @@ script_file_path = path.dirname(__file__) + path.sep
 
 def generate_proverb(
     temperature: float = 0.25, max_gen_length: int = 256, number_of_proverbs: int = 1
-) -> List[str]:
+) -> list[str]:
     """Generates proverbs.
 
     :param number_of_proverbs: number of proverbs to generate

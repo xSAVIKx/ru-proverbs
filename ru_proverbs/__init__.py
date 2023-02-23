@@ -1,4 +1,4 @@
-#  Copyright 2019 - 2021, Yurii Serhiichuk
+#  Copyright 2019 - 2023, Yurii Serhiichuk
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -13,4 +13,4 @@
 #  limitations under the License.
 #
 
-__version__ = "1.1.1"
+__version__ = "1.2.0"
