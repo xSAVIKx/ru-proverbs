@@ -37,7 +37,7 @@ def generate_proverb(
         weights_path=script_file_path + "ru_proverbs_chars_weights.hdf5",
         vocab_path=script_file_path + "ru_proverbs_chars_vocab.json",
     )
-    response = textgen.generate(
+    response: list[str] = textgen.generate(
         n=number_of_proverbs,
         temperature=[temperature],
         max_gen_length=max_gen_length,
