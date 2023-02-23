@@ -37,6 +37,8 @@ jobs:
         run: poetry export -f requirements.txt > requirements.txt
       - name: Prepare dist
         run: poetry build
+      - name: Check metadata
+        run: pipx run twine check dist/*
       - name: Dry publish
         run: poetry publish --username "${PYPI_USERNAME}" --password "${PYPI_PASSWORD}" --dry-run
         env:
